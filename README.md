@@ -3,6 +3,7 @@
 Code for Advanced C++ concepts: 
   - Template Programming.
   - Metaprogramming concepts.
+  - Optimization Algorithims
   - Deeper Look at Metafunctions.
   - Wrappers and Operations.
   - Sequences and iterators.
