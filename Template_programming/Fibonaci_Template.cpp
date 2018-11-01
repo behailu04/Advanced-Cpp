@@ -8,8 +8,16 @@
 /*
  * Template programming concepts
  *
- * Building factrorial using Template Metaprogramming.
+ * Building factorial using Template Meta-programming.
  *
+ * Templates get evaluated on compile time. It is Meta-programming technique in which templates
+ * templates are used by a compiler to generate temporary source code.
+ *
+ * The use of template can be thought of as compile-time execution. A template must be defined,
+ * and a defined template must be instantiated. The Template definition describes the generic
+ * form of the generated source code to be generated from the generic form in the template.
+ *
+ * Templates are different from macros. Template Meta-programming have no mutable variables.
  *
  */
 template <int N> struct Factorial {
@@ -21,5 +29,5 @@ template <> struct Factorial<0> {
 };
 
 int main(){
-    std::cout<<Factorial<5>::result<<std::endl;
+    std::cout<<Factorial<4>::result<<std::endl;
 }

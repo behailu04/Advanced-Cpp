@@ -3,6 +3,8 @@ project(Advanced_C__)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_subdirectory(Template_programming)
-
 add_executable(fibonaci Fibonaci_Template.cpp)
+
+add_executable(max max.cpp)
+
+add_executable(Temp_specialization Template_specialization.cpp)
