@@ -3,5 +3,5 @@ project(Advanced_C__)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ostraem_Test ostream_.cpp)
+add_executable(Basics basics.cpp)
 
