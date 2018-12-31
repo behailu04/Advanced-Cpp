@@ -1,0 +1,18 @@
+/home/behailu/Downloads/Setup/clion-2018.1.5/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp
+-- Boost version: 1.58.0
+-- Found the following Boost libraries:
+--   date_time
+--   filesystem
+--   program_options
+--   regex
+--   serialization
+--   system
+--   thread
+--   chrono
+--   atomic
+-- Boost version 105800 found.
+-- Found Boost::program_options
+-- Found Boost::math
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug

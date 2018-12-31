@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/fibonaci.dir/Template_programming/Fibonaci_Template.cpp.o  -o fibonaci 

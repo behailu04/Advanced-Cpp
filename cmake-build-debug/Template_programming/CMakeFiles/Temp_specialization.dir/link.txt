@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Temp_specialization.dir/Template_specialization.cpp.o  -o Temp_specialization 

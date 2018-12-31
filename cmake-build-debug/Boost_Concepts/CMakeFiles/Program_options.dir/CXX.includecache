@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Boost_Concepts/boost_programOptions.cpp
+boost/program_options.hpp
+-
+string
+-
+vector
+-
+algorithm
+-
+iterator
+-
+iostream
+-
+

@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Advanced_Search/Simulated_annealing.cpp
+
