@@ -5,7 +5,7 @@
 		<Option title="Advanced_C__"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\Template_programming\;CMake Files\Advanced_Search\;CMake Files\Boost_Concepts\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Template_programming\;CMake Files\Advanced_Search\;CMake Files\Boost_Concepts\;CMake Files\Algorithims_Views_and_Iterators\;CMake Files\Standard_Laibrary\;CMake Files\Classes_and_Objects\;CMake Files\Cpp_Basics\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug"/>
@@ -313,6 +313,420 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Boost_Concepts/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Iterators">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Iterators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 Iterators"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Iterators/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Iterators" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 Iterators/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Algorithims_Views_and_Iterators/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_lib">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/vector_lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 vector_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vector_lib/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/vector_lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 vector_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ostraem_Test">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/ostraem_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 ostraem_Test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ostraem_Test/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/ostraem_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 ostraem_Test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Standard_Laibrary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Employee">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Employee" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 Employee"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Employee/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Employee" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 Employee/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classes_Test">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/classes_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 classes_Test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classes_Test/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/classes_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 classes_Test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inline">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/inline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 inline"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inline/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/inline" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 inline/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/complex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 complex"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complex/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/complex" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 complex/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 stack"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/stack" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 stack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Classes_and_Objects/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Basics">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Basics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 Basics"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Basics/fast">
+				<Option output="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Basics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 Basics/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/cmake-build-debug/Cpp_Basics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Advanced_Search/Hill_climbing.cpp">
 			<Option target="Hill_Climbing"/>
@@ -320,8 +734,47 @@
 		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Advanced_Search/Simulated_annealing.cpp">
 			<Option target="Simulated_annealing"/>
 		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Algorithims_Views_and_Iterators/iterators.cpp">
+			<Option target="Iterators"/>
+		</Unit>
 		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Boost_Concepts/boost_programOptions.cpp">
 			<Option target="Program_options"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/Complex.cpp">
+			<Option target="complex"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/Complex.h">
+			<Option target="complex"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/EmployeeTest.cpp">
+			<Option target="Employee"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/TestStack.cpp">
+			<Option target="classes_Test"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/classes_Test.cpp">
+			<Option target="classes_Test"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/inline_functions.cpp">
+			<Option target="inline"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/stack.cpp">
+			<Option target="stack"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/stack.h">
+			<Option target="classes_Test"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Cpp_Basics/basics.cpp">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Cpp_Basics/basics.h">
+			<Option target="Basics"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Standard_Laibrary/ostream_.cpp">
+			<Option target="ostraem_Test"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Standard_Laibrary/vector_library.cpp">
+			<Option target="vector_lib"/>
 		</Unit>
 		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Template_programming/Fibonaci_Template.cpp">
 			<Option target="fibonaci"/>
@@ -343,6 +796,18 @@
 		</Unit>
 		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Boost_Concepts/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Boost_Concepts\"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Algorithims_Views_and_Iterators/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Algorithims_Views_and_Iterators\"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Standard_Laibrary/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Standard_Laibrary\"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Classes_and_Objects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Classes_and_Objects\"/>
+		</Unit>
+		<Unit filename="/home/behailu/Workspace/OpenCog/Advanced_Cpp/Advanced-Cpp/Cpp_Basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Cpp_Basics\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
