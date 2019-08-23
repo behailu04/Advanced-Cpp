@@ -10,3 +10,5 @@ Code for Advanced C++ concepts:
   - Algorithims, Views and Iterator Adaptors.
   - Crossing compile-Time/Runtime Boundary
   - Advanced coding standard concepts.
+  - Smart Pointers
+  
