@@ -9,6 +9,8 @@ add_subdirectory(Advanced_Search)
 
 add_subdirectory(Boost_Concepts)
 
+add_subdirectory(Smart_pointers)
+
 SET(Boost_USE_STATIC_LIBS OFF)
 SET(Boost_USE_MULTITHREADED ON)
 
