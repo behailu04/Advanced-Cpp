@@ -1,0 +1,18 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mac/Workspace/Tutorial/Advanced-Cpp
+-- Boost version: 1.70.0
+-- Found the following Boost libraries:
+--   date_time
+--   filesystem
+--   program_options
+--   regex
+--   serialization
+--   system
+--   thread
+--   chrono
+--   atomic
+-- Boost version 107000 found.
+-- Found Boost::program_options
+-- Found Boost::math
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/mac/Workspace/Tutorial/Advanced-Cpp/cmake-build-debug

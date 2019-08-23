@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mac/Workspace/Tutorial/Advanced-Cpp/Smart_pointers/pointer_ptr.cpp
+
+/Users/mac/Workspace/Tutorial/Advanced-Cpp/Smart_pointers/smart_pointers.cpp
+iostream
+-
+pointer_ptr.cpp
+/Users/mac/Workspace/Tutorial/Advanced-Cpp/Smart_pointers/pointer_ptr.cpp
+
